@@ -40,6 +40,14 @@ In total there are 68 variables in the raw dataset:
 
 The feature variables in the tidy datset were renamed according to following rules:
  * The variables names were converted to satisfy `camlCase` rule.
- * The variable names were alraedy descriptive.
+ * The variable names were already descriptive.
  * The variable names were already unique.
  * Dashes, parentheses and repeating words were removed from variable names.
+ 
+### Output file
+The output text file containing the tiday datset has following feature variables
+
+```subject label tBodyAccMeanX tBodyAccMeanY tBodyAccMeanZ tBodyAccStdX tBodyAccStdY tBodyAccStdZ tGravityAccMeanX tGravityAccMeanY tGravityAccMeanZ tGravityAccStdX tGravityAccStdY tGravityAccStdZ tBodyAccJerkMeanX tBodyAccJerkMeanY tBodyAccJerkMeanZ tBodyAccJerkStdX tBodyAccJerkStdY tBodyAccJerkStdZ tBodyGyroMeanX tBodyGyroMeanY tBodyGyroMeanZ tBodyGyroStdX tBodyGyroStdY tBodyGyroStdZ tBodyGyroJerkMeanX tBodyGyroJerkMeanY tBodyGyroJerkMeanZ tBodyGyroJerkStdX tBodyGyroJerkStdY tBodyGyroJerkStdZ tBodyAccMagMean tBodyAccMagStd tGravityAccMagMean tGravityAccMagStd tBodyAccJerkMagMean tBodyAccJerkMagStd tBodyGyroMagMean tBodyGyroMagStd tBodyGyroJerkMagMean tBodyGyroJerkMagStd fBodyAccMeanX fBodyAccMeanY fBodyAccMeanZ fBodyAccStdX fBodyAccStdY fBodyAccStdZ fBodyAccJerkMeanX fBodyAccJerkMeanY fBodyAccJerkMeanZ fBodyAccJerkStdX fBodyAccJerkStdY fBodyAccJerkStdZ fBodyGyroMeanX fBodyGyroMeanY fBodyGyroMeanZ fBodyGyroStdX fBodyGyroStdY fBodyGyroStdZ fBodyAccMagMean fBodyAccMagStd fBodyAccJerkMagMean fBodyAccJerkMagStd fBodyGyroMagMean fBodyGyroMagStd fBodyGyroJerkMagMean fBodyGyroJerkMagStd```
+
+The tidy data file contains, 180 records for 30 subjects and 6 different activities.  
+ 
