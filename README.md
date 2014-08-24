@@ -49,4 +49,4 @@ data.table 1.9.2  For help type: help("data.table")
 ```
 
 ### Cleaned Data
-Once the scripts completes its execution, the resultant merged and tidy datasets are saved in /output/rawdata.txt and /output/tidyData.txt files.
+Once the scripts completes its execution, the resultant merged and tidy datasets are saved in `/output/rawdata.txt` and `/output/tidyData.txt` files.
