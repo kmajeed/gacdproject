@@ -43,7 +43,7 @@ setupEnv = function(){
 #=========================================================================
 run_analysis = function () {
  
-  showMsg("Setting the working to directory");
+  showMsg("Setting the working directory");
   
   setwd('/Users/kmajeed/Development/Coursera/Gits/gacdproject');
   # Load the needed packages 

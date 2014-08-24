@@ -48,5 +48,11 @@ data.table 1.9.2  For help type: help("data.table")
 [run_analysis.R] Writing tidy data
 ```
 
+### Input Data
+The input data that can be downloaded from `https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip`
+
 ### Cleaned Data
 Once the scripts completes its execution, the resultant merged and tidy datasets are saved in `/output/rawdata.txt` and `/output/tidyData.txt` files.
+
+### Dependencies
+The only dependency of this script is `data.table` package that will be be automatically downloaded by this script if needed.
