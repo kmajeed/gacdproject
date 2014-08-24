@@ -15,20 +15,20 @@ Create an R script called run_analysis.R that does the following.
 1. Download the repo on your local computer
 2. Open the script in RStudio.
 3. Update line 48 of the script to set the path to the folder of the script. The command to update is 
-'''r
+```r
 setwd('/Path/To/gacdproject');
-'''
-4. Source the script using '''r
+```
+4. Source the script using ```r
 source('~/Path/to/gacdproject/run_analysis.R')
-'''
+```
 3. Call function 
-'''r
+```r
 run_analysis();
-'''
+```r
 
 After nunning the script you should see the following messages
 
-'''
+```
 [run_analysis.R] Setting the working to directory 
 [run_analysis.R] Checking if data.table package is installed 
 Loading required package: data.table
@@ -41,4 +41,4 @@ data.table 1.9.2  For help type: help("data.table")
 [run_analysis.R] Generating tidy data 
 [run_analysis.R] Writing merged data 
 [run_analysis.R] Writing tidy data
-'''
+```
