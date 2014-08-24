@@ -14,17 +14,22 @@ Create an R script called run_analysis.R that does the following.
 * Download the repo on your local computer
 * Open the script in RStudio.
 * Update line 48 of the script to set the path to the folder of the script. The command to update is 
+
 ```r
 setwd('/Path/To/gacdproject');
 ```
+
 * Source the script using 
+
 ```r
 source('~/Path/to/gacdproject/run_analysis.R')
 ```
+
 * Call function 
+
 ```r
 run_analysis();
-```r
+```
 
 After running the script you should see the following messages
 
